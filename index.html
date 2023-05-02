@@ -1,10 +1,6 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
+
 <html class="no-js">
-<!--<![endif]-->
 
 <head>
     <meta charset="utf-8">
@@ -77,18 +73,19 @@
 </head>
 
 <body>
-
     <div class="fh5co-loader"></div>
-
     <!--<div class="container">-->
     <div id="page">
 
         <!--Floating button-->
         <div id="floating-button" class="float">
             <div class="control-center open">
-                <div class="audio-play">
+                <!-- <div class="audio-play">
                     <div data-video="QZng89VxKWg" data-autoplay="0" data-loop="1" id="youtube-audio1"></div>
-                </div>
+                </div> -->
+
+                <div id="player"></div>
+
                 <ul class="right-sidebar">
                     <!--gallery-->
                     <li onclick="scrollToElement('fh5co-gallery')"
@@ -126,10 +123,10 @@
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
                             <h1>Adwa & Farra</h1>
-                            <p style="margin-bottom: 0">DENGAN SEGALA HORMATNYA MENJEMPUT
-                                DATO’ / DATIN / TUAN / PUAN / ENCIK / CIK
-                                DAN SEISI KELUARGA KE MAJLIS PERKAHWINAN PUTERA KAMI BERSAMA PASANGANNYA</p>
-                            <p>Kami Mengundang Anda Untuk Hadir Di Acara Pernikahan Kami.</p>
+                            <p style="margin-bottom: 0">WITH ALL DUE RESPECT, WE WOULD LIKE TO INVITE
+                                DATO’ / DATIN / SIR / MADAM / MR. / MS.
+                                AND FAMILY TO THE WEDDING CEREMONY OF OUR SON AND HIS PARTNER</p>
+                            <p>We cordially invite you to join us on our special day.</p>
 
                             <button class="btn btn-primary" id="open-invitation">Open</button>
                         </div>
@@ -156,7 +153,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-                        <h1>Adwa & Pasangan</h1>
+                        <h1>Adwa & Farra</h1>
                         <p style="color: #bf9b73">We hope you can be a part of our special day!
 
                         </p>
@@ -624,6 +621,8 @@
             </div>
         </div>
 
+
+
         <footer id="fh5co-footer" role="contentinfo"
             style="background: url('images/background/repeat-background/witewall_3.png'); background-repeat:repeat ">
             <div class="container">
@@ -761,6 +760,36 @@
     </script>
 
     <script>
+        // Load the YouTube API script
+        var tag = document.createElement('script');
+        tag.src = "https://www.youtube.com/iframe_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+        // Create the player
+        var player;
+
+        function onYouTubeIframeAPIReady() {
+            player = new YT.Player('player', {
+                videoId: 'sYxlegOvkmU',
+                playerVars: {
+                    autoplay: 1, // Autoplay the video
+                    controls: 0, // Hide the player controls
+                    loop: 1, // Loop the video
+                    mute: 0 // Unmute the video
+                },
+                events: {
+                    'onReady': onPlayerReady
+                }
+            });
+        }
+
+        // Play the video when the player is ready
+        function onPlayerReady(event) {
+            event.target.playVideo();
+        }
+
+
         // 2. This code loads the IFrame Player API code asynchronously.
         var tag = document.createElement('script');
 
@@ -782,7 +811,7 @@
             player1 = new YT.Player('youtube-player1', {
                 height: '0',
                 width: '0',
-                videoId: ctrlq1.dataset.video,
+                videoId: '',
                 playerVars: {
                     autoplay: ctrlq1.dataset.autoplay,
                     loop: ctrlq1.dataset.loop,
