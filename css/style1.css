@@ -458,7 +458,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-header {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-image: url("../images/background/pastel.jpeg");
+  /* background-image: url("../images/background/pastel.jpeg"); */
   background-repeat: repeat;
   /*background-size: cover;*/
 }
@@ -480,7 +480,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 10px;
   line-height: 1.5;
   font-weight: normal;
-  color: #FF1493;
+  color: black;
   font-family: "Satisfy", Arial, serif;
 }
 @media screen and (max-width: 480px) {
@@ -495,7 +495,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #overlay {
   background: #ffffff;
-  background-image: url("../images/e5.JPG");
+  background-image: url("../images/e1.JPG");
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -504,6 +504,7 @@ h1, h2, h3, h4, h5, h6, figure {
   left: 0;
   z-index: 2000;
 }
+
 #overlay .content {
   background: rgba(0, 0, 0, 0.7);
   position: relative;
@@ -1344,7 +1345,7 @@ form label {
   margin-bottom: 10px;
   line-height: 1.5;
   font-weight: bold;
-  color: #FF1493;
+  color: black;
   font-family: "Dancing Script", Arial, serif;
 }
 @media screen and (max-width: 768px) {
@@ -2003,13 +2004,14 @@ form label {
 }
 
 .fh5co-loader {
+  /* display: none; */
   position: fixed;
   left: 0px;
   top: 0px;
   width: 100%;
   height: 100%;
   z-index: 9999;
-  background: url(../images/loader.gif) center no-repeat #fff;
+  background: url(../images/diamond.gif);
 }
 
 .js .animate-box {
@@ -2099,7 +2101,7 @@ form label {
   background-position: center center;
   background-size: 25px;
   background-repeat: no-repeat;
-  background-image: url('../images/ico/2.png');
+  background-image: url('../images/ico/diam.png');
 
 }
 
@@ -2116,7 +2118,7 @@ form label {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 30px;
-  background-image: url('../images/ico/2.png');
+  background-image: url('../images/ico/diam.png');
 
 }
 
