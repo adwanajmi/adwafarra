@@ -458,7 +458,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-header {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-image: url("../images/background/repeat-background/nice_snow.png");
+  background-image: url("../images/background/pastel.jpeg");
   background-repeat: repeat;
   /*background-size: cover;*/
 }
@@ -1055,6 +1055,21 @@ form label {
 }
 
 .simply-countdown > .simply-section {
+  /* coutndown blocks */
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: pink;
+  margin: 0 4px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  position: relative;
+  animation: pulse 1s ease infinite;
+}
+
+.simply-countdown-adwa> .simply-section {
   /* coutndown blocks */
   display: inline-block;
   width: 100px;
