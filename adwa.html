@@ -101,7 +101,6 @@
 
                     <!--couple-->
                     <li onclick="scrollToElement('fh5co-testimonial')" style="background-image: url('images/ico/ring.png');"></li>
-                    
 
                 </ul>
             </div>
@@ -221,53 +220,6 @@
             </div>
         </div>
 
-        <div id="fh5co-testimonial" class="fh5co-bg" style="background: url('images/background/repeat-background/so-white.png'); background-repeat:repeat ">
-            <img class="flower-3-top" src="images/background/flowers/top-2.svg">
-            <img class="flower-4-bottom" src="images/background/flowers/bottom-2.svg">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-                        <h2>Contact Us</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-10 col-md-offset-1">
-                     
-                        <div class="col-md-12 col-sm-12 text-center">
-                            <div class="container">
-                                <div class="row justify-content-center">
-                                    <div class="col-md-12 col-sm-12 text-center event-wrap" style="height: 400px;">                            
-                                        <h3 style="font-family: 'Oswald', Arial, sans-serif; color: #bf9b73;">For any questions, please contact:</h3>
-                                        <a href="https://wa.me/60192130511" target="_blank" class="btn btn-success">
-                                            <i class="fab fa-whatsapp"></i>
-                                            Rosmadi Saad
-                                        </a>
-                        
-                                        <a href="https://wa.me/60192130511" target="_blank" class="btn btn-success">
-                                            <i class="fab fa-whatsapp"></i>
-                                            Siti Haida
-                                        </a>
-                        
-                                        <a href="https://wa.me/60192130511" target="_blank" class="btn btn-success">
-                                            <i class="fab fa-whatsapp"></i>
-                                            Aiman Najmi
-                                        </a>
-                        
-                                        <a href="https://wa.me/60192130511" target="_blank" class="btn btn-success">
-                                            <i class="fab fa-whatsapp"></i>
-                                            Arman Najmi
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
         <div id="fh5co-event" class="fh5co-bg" style="background: url('images/background/repeat-background/so-white.png'); background-repeat:repeat ">
             <img class="flower-3-top" src="images/background/flowers/top-2.svg">
             <img class="flower-4-bottom" src="images/background/flowers/bottom-2.svg">
@@ -376,6 +328,53 @@
             </div>
         </div>
 
+        <div id="fh5co-testimonial" class="fh5co-bg" style="background: url('images/background/repeat-background/so-white.png'); background-repeat:repeat ">
+            <img class="flower-3-top" src="images/background/flowers/top-2.svg">
+            <img class="flower-4-bottom" src="images/background/flowers/bottom-2.svg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+                        <h2>Contact Us</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                     
+                        <div class="col-md-12 col-sm-12 text-center">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-md-12 col-sm-12 text-center event-wrap" style="height: 400px;">                            
+                                        <h3 style="font-family: 'Oswald', Arial, sans-serif; color: #bf9b73;">For any questions, please contact:</h3>
+                                        <a href="https://wa.me/60192130511" target="_blank" class="btn btn-success">
+                                            <i class="fab fa-whatsapp"></i>
+                                            Rosmadi Saad
+                                        </a>
+                        
+                                        <a href="https://wa.me/60192130511" target="_blank" class="btn btn-success">
+                                            <i class="fab fa-whatsapp"></i>
+                                            Siti Haida
+                                        </a>
+                        
+                                        <a href="https://wa.me/60192130511" target="_blank" class="btn btn-success">
+                                            <i class="fab fa-whatsapp"></i>
+                                            Aiman Najmi
+                                        </a>
+                        
+                                        <a href="https://wa.me/60192130511" target="_blank" class="btn btn-success">
+                                            <i class="fab fa-whatsapp"></i>
+                                            Arman Najmi
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div id="fh5co-testimonial"
             style="background: url('images/background/repeat-background/so-white.png'); background-repeat:repeat; border-top: 1px solid #f2f2f2">
             <img height="400" class="flower-bukutamu-right" style="right: 0;top: 0;position: absolute;"
@@ -409,14 +408,14 @@
                     <div class="col-md-12 text-center">
                         <p>
                             We are honored and delighted to invite you to join us on this special occasion. Your presence and blessings mean a lot to us.
-Thank you, and best regards.
+                            Thank you, and best regards.
 
                         <h3 style="color: #bf9b73">Best regards</h3>
                         </p>
                         <br>
                         <h1 style="font-family: 'Satisfy', Arial, serif">Adwa & Farra</h1>
                         &copy; 2023 Developed by Adwa Najmi. All rights reserved.
-
+                        <br><br><br>
                     </div>
                 </div>
 
@@ -515,6 +514,14 @@ Thank you, and best regards.
             else
                 window.open("https://www.google.com/maps?daddr=Amel+Convention+Hall");
         }
+
+        document.querySelector('.fh5co-loader').style.display = 'block'; // Show the loader
+
+        window.addEventListener("load", function () {
+            var loader = document.querySelector(".fh5co-loader");
+            loader.style.display = "none"; // Hide the loader when the page has finished loading
+        });
+
     </script>
 </body>
 
