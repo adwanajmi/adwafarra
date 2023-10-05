@@ -458,7 +458,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-header {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-image: url("../images/background/repeat-background/nice_snow.png");
+  background-image: url("../images/background/repeat-background/1.jpg");
   background-repeat: repeat;
   /*background-size: cover;*/
 }
@@ -478,7 +478,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 10px;
   line-height: 1.5;
   font-weight: normal;
-  color: #113468;
+  color: #FF1493;
   font-family: "Satisfy", Arial, serif;
 }
 @media screen and (max-width: 480px) {
@@ -521,7 +521,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 10px;
   line-height: 1.5;
   font-weight: normal;
-  color: #0298d4;
+  color: #FFDFBA;
   font-family: "Satisfy", Arial, serif;
 }
 @media screen and (max-width: 480px) {
@@ -1059,7 +1059,7 @@ form label {
   display: inline-block;
   width: 100px;
   height: 100px;
-  background: rgba(17, 52, 104, 0.8);
+  background: pink;
   margin: 0 4px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1327,7 +1327,7 @@ form label {
   margin-bottom: 10px;
   line-height: 1.5;
   font-weight: bold;
-  color: #113468;
+  color: #FF1493;
   font-family: "Dancing Script", Arial, serif;
 }
 @media screen and (max-width: 768px) {
@@ -1830,9 +1830,9 @@ form label {
 }
 
 .btn-primary {
-  background: #113468;
-  color: #fff;
-  border: 2px solid #113468;
+  background: #FFDFBA;
+  color: black;
+  border: 2px solid #FFDFBA;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background: #153f7e !important;
@@ -2059,11 +2059,11 @@ form label {
 }
 
 .option-btn {
-  background-color: #395f95;
+  background-color: #FFDFBA;
   height: 65px;
   width: 65px;
   border-radius: 50%;
-  box-shadow: 0px 0px 12px 2px rgb(26 72 139);
+  box-shadow: 0px 0px 12px 2px pink;
   position: relative;
   cursor: pointer;
   z-index: 9;
@@ -2082,7 +2082,8 @@ form label {
   background-position: center center;
   background-size: 25px;
   background-repeat: no-repeat;
-  /*background-image: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjUxMnB4IiBoZWlnaHQ9IjUxMnB4IiB2aWV3Qm94PSIwIDAgNjEyIDYxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNjEyIDYxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8Zz4KCTxnPgoJCTxjaXJjbGUgY3g9IjY5LjU0NSIgY3k9IjMwNiIgcj0iNjkuNTQ1IiBmaWxsPSIjRkZGRkZGIi8+CgkJPGNpcmNsZSBjeD0iMzA2IiBjeT0iMzA2IiByPSI2OS41NDUiIGZpbGw9IiNGRkZGRkYiLz4KCQk8Y2lyY2xlIGN4PSI1NDIuNDU1IiBjeT0iMzA2IiByPSI2OS41NDUiIGZpbGw9IiNGRkZGRkYiLz4KCTwvZz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K);*/
+  background-image: url('../images/ico/2.png');
+
 }
 
 .option-btn:before {
@@ -2098,7 +2099,8 @@ form label {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 30px;
-  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAhUlEQVRIie2U0QmAMAxEE3EMcRIdQAdxUXGSDPL8ESmlasUWKfR9hssduY+I/AWwAWsqXWgRgK+6xhPPgLkLPODpDJhcT/UCTES6iAPvMFXtrwIeK4lBVU/f5k6YguwBbWjonviGUMXlV1QDakCpAcDw1ggYQ/Ps79q/YBER+2J+eFTi2QH5gHBCJs9nEQAAAABJRU5ErkJggg==);
+  background-image: url('../images/ico/2.png');
+
 }
 
 .option-btn.open:after {
@@ -2115,7 +2117,7 @@ form label {
 
 .right-sidebar {
   list-style: none;
-  background-color: #325587;
+  background-color: #FFDFBA;
   height: 50px;
   padding: 0 25px 0 35px;
   margin: 0;
@@ -2139,7 +2141,7 @@ form label {
 
 .left-sidebar {
   list-style: none;
-  background-color: #325587;
+  background-color: #FFDFBA;
   height: 50px;
   padding: 0 25px 0 35px;
   margin: 0;
