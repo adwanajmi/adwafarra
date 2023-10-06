@@ -1176,9 +1176,10 @@ form label {
 }
 
 #fh5co-testimonial{
-  /*background-image: url("../images/background/repeat-background/vintage-concrete.png");*/
-  background-repeat : repeat;
-  position: relative;
+  background-image: url("../images/farra/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed; 
 }
 
 #fh5co-couple .fh5co-heading h2 {
