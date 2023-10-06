@@ -1159,14 +1159,12 @@ form label {
   }
 }
 
+
 #fh5co-couple{
-  /* padding-top: 100px; */
-  /* padding-bottom: 100px; */
+
   background-image: url("../images/farra/background.jpg");
    background-repeat: no-repeat;
   background-position: center center;
-  /* background-repeat: repeat; */
-  /*background-size: cover;*/
   background-attachment: fixed; 
 }
 
