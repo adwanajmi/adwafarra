@@ -455,12 +455,17 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 
+
+
 #fh5co-header {
-  padding-top: 100px;
-  padding-bottom: 100px;
-  /* background-image: url("../images/farra/background.jpg"); */
+  /* padding-top: 100px; */
+  /* padding-bottom: 100px; */
+  background-image: url("../images/farra/background.jpg");
+   background-repeat: no-repeat;
+  background-position: center center;
   /* background-repeat: repeat; */
   /*background-size: cover;*/
+  background-attachment: fixed; 
 }
 #fh5co-header .fh5co-heading {
   margin-bottom: 10px;
@@ -480,7 +485,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 10px;
   line-height: 1.5;
   font-weight: normal;
-  color: #FF1493;
+  color: black;
   font-family: "Satisfy", Arial, serif;
 }
 @media screen and (max-width: 480px) {
@@ -496,7 +501,9 @@ h1, h2, h3, h4, h5, h6, figure {
 #overlay {
   background: #ffffff;
   background-image: url("../images/farra/background.jpg");
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
   height: 100%;
   width: 100%;
   position: fixed;
@@ -504,6 +511,8 @@ h1, h2, h3, h4, h5, h6, figure {
   left: 0;
   z-index: 2000;
 }
+
+
 #overlay .content {
   background: rgba(0, 0, 0, 0.7);
   position: relative;
@@ -1344,7 +1353,7 @@ form label {
   margin-bottom: 10px;
   line-height: 1.5;
   font-weight: bold;
-  color: #FF1493;
+  color: black;
   /* font-family: "Dancing Script", Arial, serif; */
 }
 @media screen and (max-width: 768px) {
@@ -2097,7 +2106,7 @@ form label {
   visibility: visible;
   transition: opacity .5s ease-in-out, visibility .5s ease-in-out;
   background-position: center center;
-  background-size: 50px;
+  background-size: 70px;
   background-repeat: no-repeat;
   background-image: url('../images/farra/logo.svg');
 
