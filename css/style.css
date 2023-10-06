@@ -457,16 +457,12 @@ h1, h2, h3, h4, h5, h6, figure {
 
 
 
-#fh5co-header {
-  /* padding-top: 100px; */
-  /* padding-bottom: 100px; */
+/* #fh5co-header {
+
   background-image: url("../images/farra/background.jpg");
    background-repeat: no-repeat;
-  background-position: center center;
-  /* background-repeat: repeat; */
-  /*background-size: cover;*/
   background-attachment: fixed; 
-}
+} */
 #fh5co-header .fh5co-heading {
   margin-bottom: 10px;
 }
@@ -1134,7 +1130,7 @@ form label {
 }
 
 #fh5co-testimonial,
-#fh5co-services,
+#fh5co-header,
 #fh5co-started,
 #fh5co-footer,
 #fh5co-event,
@@ -1145,7 +1141,7 @@ form label {
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-  background-size: cover; 
+  background-size: contain;
 }
 
 
@@ -1503,17 +1499,15 @@ form label {
   margin-bottom: 10px;
 }
 
-#fh5co-started {
-  /* position: relative; */
-   /* padding-top: 100px; */
-  /* padding-bottom: 100px; */
+/* #fh5co-started {
+
   background-image: url("../images/farra/background.jpg");
    background-repeat: no-repeat;
   background-position: center center;
-  /* background-repeat: repeat; */
-  /*background-size: cover;*/
+
   background-attachment: fixed; 
-}
+} */
+
 #fh5co-started .overlay {
   position: absolute;
   top: 0;
