@@ -1140,7 +1140,13 @@ form label {
 #fh5co-event,
 #fh5co-couple-story,
 #fh5co-couple,
-#fh5co-gallery,
+#fh5co-gallery {
+  background-image: url("../images/farra/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed; 
+}
+
 .fh5co-section {
   padding: 7em 0;
   clear: both;
@@ -1160,27 +1166,6 @@ form label {
 }
 
 
-#fh5co-couple{
-
-  background-image: url("../images/farra/background.jpg");
-   background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed; 
-}
-
-#fh5co-gallery{
-  /*background-image: url("../images/background/repeat-background/ep_naturalwhite.png");*/
-  background-repeat : repeat;
-  position: relative;
-  overflow: hidden;
-}
-
-#fh5co-testimonial{
-  background-image: url("../images/farra/background.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed; 
-}
 
 #fh5co-couple .fh5co-heading h2 {
   font-size: 38px;
