@@ -523,7 +523,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 10px;
   line-height: 1.5;
   font-weight: normal;
-  color: #FFDFBA;
+  color: white;
   font-family: "Satisfy", Arial, serif;
 }
 @media screen and (max-width: 480px) {
@@ -1847,9 +1847,9 @@ form label {
 }
 
 .btn-primary {
-  background: #FFDFBA;
+  background: white;
   color: black;
-  border: 2px solid #FFDFBA;
+  border: 2px solid white;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background: #153f7e !important;
@@ -2076,7 +2076,7 @@ form label {
 }
 
 .option-btn {
-  background-color: #FFDFBA;
+  background-color: white;
   height: 65px;
   width: 65px;
   border-radius: 50%;
@@ -2097,9 +2097,9 @@ form label {
   visibility: visible;
   transition: opacity .5s ease-in-out, visibility .5s ease-in-out;
   background-position: center center;
-  background-size: 25px;
+  background-size: 50px;
   background-repeat: no-repeat;
-  background-image: url('../images/ico/2.png');
+  background-image: url('../images/farra/logo.svg');
 
 }
 
@@ -2115,8 +2115,8 @@ form label {
   transition: opacity .5s ease-in-out, visibility .5s ease-in-out;
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: 30px;
-  background-image: url('../images/ico/2.png');
+  background-size: 70px;
+  background-image: url('../images/farra/logo.svg');
 
 }
 
@@ -2134,7 +2134,7 @@ form label {
 
 .right-sidebar {
   list-style: none;
-  background-color: #FFDFBA;
+  background-color: white;
   height: 50px;
   padding: 0 25px 0 35px;
   margin: 0;
@@ -2158,7 +2158,7 @@ form label {
 
 .left-sidebar {
   list-style: none;
-  background-color: #FFDFBA;
+  background-color: white;
   height: 50px;
   padding: 0 25px 0 35px;
   margin: 0;
