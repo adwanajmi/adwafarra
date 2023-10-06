@@ -1144,8 +1144,10 @@ form label {
   background-image: url("../images/farra/background.jpg");
   background-repeat: no-repeat;
   background-position: center center;
-  background-attachment: fixed; 
+  background-attachment: fixed;
+  background-size: cover; 
 }
+
 
 .fh5co-section {
   padding: 7em 0;
